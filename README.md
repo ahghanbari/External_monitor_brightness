@@ -1,6 +1,6 @@
 # [Monitor_brightness_Mangager](https://github.com/arashph17/External_monitor_brightness)
 ## Welcome :sunglasses:
-<img src="pic3.png" height="300">
+<img src="pic.png" height="300">
 
 ### External monitor brightness Mangager
 

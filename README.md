@@ -44,7 +44,7 @@ Of course this is not useful enough, We want to add shortcut for that.
 2. Shortcuts tab <br />
 3. Custom Shortcuts <br />
 4. Edit, New, Global Shortcut, Command/URL <br />
-5. add action (once 'screen up' and once again 'screen dow') <br />
+5. add action (once 'screen up' and once again 'screen down') <br />
 6. add your favrite shortcut (in Trigger tab) <br />
 7. add comment :neutral_face:
 <br />

@@ -13,7 +13,7 @@ You most likely have notify-send(99%), but if you don't (that you have :neutral_
 ```
 which notify-send
 ```
-If printed anything, you have that, Ex. /usr/bin/notify-send
+If printed anything, you have that, Ex. /usr/bin/notify-send <br />
 Also you have xrandr probably but if you don't: <br />
 #### Debian base:
 ```
@@ -39,11 +39,21 @@ Of course this is not useful enough, We want to add shortcut for that.
 <img src="pic4.png" height="300">
 
 ### KDE Plasma Desktop
-<br />
+
 1. Lunch setting <br />
 2. Shortcuts tab <br />
 3. Custom Shortcuts <br />
 4. Edit, New, Global Shortcut, Command/URL <br />
 5. add action (once 'screen up' and once again 'screen dow') <br />
-6. add you favrite shortcut (in Trigger tab) <br />
+6. add your favrite shortcut (in Trigger tab) <br />
 7. add comment :neutral_face:
+<br />
+
+### GNOME Desktop
+1. Lunch setting <br />
+2. Shortcut keyboard tab <br />
+3. '+' key in the bottom of shortcut list <br />
+4. Command -> 'screen up' or 'screen down' <br />
+5. add your favrite shortcut <br />
+
+

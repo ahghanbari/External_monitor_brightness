@@ -3,7 +3,7 @@
 <img src="pic3.png" height="300">
 
 ### External monitor brightness Mangager
-<br />
+
 If you added an External monitor to your laptop and the shortcut key for changing brightness on your laptop didn't work, then this script will be helpful for you (of course you need to have a GNU/LINUX distribution)
 
 Put 'screen' in the /usr/bin or /bin or any dir in your PATH. <br />
@@ -37,7 +37,7 @@ screen down
 Of course this is not useful enough, We want to add shortcut for that.
 
 <img src="pic4.png" height="300">
-<br />
+
 ### KDE Plasma Desktop
 <br />
 1. Lunch setting <br />

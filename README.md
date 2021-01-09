@@ -1,6 +1,6 @@
 # [Monitor_brightness_Mangager](https://github.com/arashph17/External_monitor_brightness)
 ## Welcome :sunglasses:
-<img src="pic.jpeg" height="300">
+<img src="pic.jpeg" height="400">
 
 ### External monitor brightness Mangager
 
@@ -36,7 +36,7 @@ screen down
 ```
 Of course this is not useful enough, We want to add shortcut for that.
 
-<img src="pic4.png" height="300">
+<img src="pic4.png" height="400">
 
 ### KDE Plasma Desktop
 
@@ -55,5 +55,5 @@ Of course this is not useful enough, We want to add shortcut for that.
 3. '+' key in the bottom of shortcut list <br />
 4. Command -> 'screen up' or 'screen down' <br />
 5. add your favrite shortcut <br />
-
-
+<br />
+Good bye friend

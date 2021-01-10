@@ -1,8 +1,8 @@
-# [Monitor_brightness_Mangager](https://github.com/arashph17/External_monitor_brightness)
+# [Monitor_brightness_Manager](https://github.com/arashph17/External_monitor_brightness)
 ## Welcome :sunglasses:
 <img src="pic.jpeg" height="400">
 
-### External monitor brightness Mangager
+### External monitor brightness Manager
 
 If you added an External monitor to your laptop and the shortcut key for changing brightness on your laptop didn't work, then this script will be helpful for you (of course you need to have a GNU/LINUX distribution)
 

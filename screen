@@ -5,16 +5,17 @@ import sys, os
 
 def run():
     stream = os.popen('xrandr --prop --verbose | grep -A10 " connected" | grep "Brightness"')
+    dev = os.popen('xrandr --prop --verbose | grep -A10 " connected primary"').read().split()[0]
     b = float(stream.read().split()[1])
     # now we have current brightness as a float var in b
     check = sys.argv[1]
     if check == 'up' and b < 1.0:
         b += 0.1
-        os.system('xrandr --output DP1 --brightness {}'.format(b))
+        os.system('xrandr --output {} --brightness {}'.format(dev, b))
         # changing brightness
     elif check == 'down' and b > 0.1:
         b -= 0.1
-        os.system('xrandr --output DP1 --brightness {}'.format(b))
+        os.system('xrandr --output {} --brightness {}'.format(dev, b))
         # changing brightness
 
     os.system('notify-send "Screen Brightness: {:.0f}%"'.format((b / 1) * 100))

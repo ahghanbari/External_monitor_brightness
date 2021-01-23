@@ -6,10 +6,9 @@
 
 If you added an External monitor to your laptop and the shortcut key for changing brightness on your laptop didn't work, then this script will be helpful for you (of course you need to have a GNU/LINUX distribution)
 
-Put 'screen' in the /usr/bin or /bin or any dir in your PATH. <br />
 ## Requirements
 Notify-send and xrandr. <br />
-You most likely have notify-send(99%), but if you don't (that you have :neutral_face:) then install that. <br />
+You most likely have notify-send(99%), but if you don't (which you have :neutral_face:) then install that. <br />
 ```
 which notify-send
 ```
@@ -30,9 +29,22 @@ sudo pacman install xrandr
 
 After that you can use:
 ```
-screen up
+./screen up
 or
-screen down
+./screen down
+```
+If you see this: <br>
+```
+bash: permission denied
+```
+Run:
+```
+sudo chmod +x screen
+```
+
+In the end put 'screen' in /usr/bin or /bin or any dir in your PATH.
+```
+sudo cp screen /usr/bin
 ```
 Of course this is not useful enough, We want to add shortcut for that.
 

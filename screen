@@ -11,11 +11,11 @@ def run():
     check = sys.argv[1]
     if check == 'up' and b < 1.0:
         b += 0.1
-        os.system('xrandr --output {} --brightness {}'.format(dev, b))
+        os.system(f'xrandr --output {dev} --brightness {b}')
         # changing brightness
     elif check == 'down' and b > 0.1:
         b -= 0.1
-        os.system('xrandr --output {} --brightness {}'.format(dev, b))
+        os.system(f'xrandr --output {dev} --brightness {b}')
         # changing brightness
 
     os.system('notify-send "Screen Brightness: {:.0f}%"'.format((b / 1) * 100))

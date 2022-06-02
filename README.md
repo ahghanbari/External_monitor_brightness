@@ -7,7 +7,7 @@
 If you added an External monitor to your laptop and the shortcut key for changing brightness on your laptop didn't work, then this script will be helpful for you (of course you need to have a GNU/LINUX distribution)
 
 ## Requirements
-Notify-send and xrandr. <br />
+Notify-send and xrandr and python3 for python_version, if u use pure bash version, u don't need python3. <br />
 You most likely have notify-send(99%), but if you don't (which you have :neutral_face:) then install that. <br />
 ```
 which notify-send
@@ -68,4 +68,7 @@ Of course this is not useful enough, We want to add shortcut for that.
 4. Command -> 'screen up' or 'screen down' <br />
 5. add your favrite shortcut <br />
 <br />
+
+#### Note
+I wrote this code by python, for the first time (screen_py_version), but now, u can use pure bash (screen) which means u don't need to have python3
 Good bye friend

@@ -70,5 +70,6 @@ Of course this is not useful enough, We want to add shortcut for that.
 <br />
 
 #### Note
-I wrote this code by python, for the first time (screen_py_version), but now, u can use pure bash (screen) which means u don't need to have python3
+I wrote this code by python, for the first time (screen_py_version), but now, u can use pure bash version (screen) which means u don't need to have python3
+<br />
 Good bye friend
